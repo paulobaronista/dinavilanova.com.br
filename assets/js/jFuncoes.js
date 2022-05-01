@@ -5,6 +5,16 @@ $(document).on('ready', function () {
         speed: 500,
         autoplay: true,
         autoplaySpeed: 20000,
+        fade: true,
+        cssEase: 'linear'
+    });
+
+    $(".glr-home-2").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 20000,
     });
 
     $(".glr-arquitetura").slick({
@@ -110,7 +120,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://landingpagemodelo.com.br/"
+        window.location.href = "https://dinavilanova.com.br/"
     });
 });
 
@@ -118,22 +128,14 @@ $(function () {
     $('.nome').clear();
     $('.email').clear();
     $('.telefone').clear();
-    $('.assunto1').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, a, m;
+        var n, e, t, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.telefone').val();
-        a = $('.assunto1').val();
         m = $('.msg').val();
-
-        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
-            setTimeout(function() { 
-                $(".btn_enviar").attr('disabled', 'disabled');
-            }, 1000);
-        }
     });
 });

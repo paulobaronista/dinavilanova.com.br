@@ -74,6 +74,33 @@
     z-index: 5;
 }
 
+.glr-home-2 .slick-prev,
+.glr-home-2 .slick-prev:hover,
+.glr-home-2 .slick-prev:focus {
+    width: 25px;
+    height: 100px;
+    top: 50%;
+    left: 2%;
+    background: url(../images/seta-left.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+.glr-home-2 .slick-next,
+.glr-home-2 .slick-next:hover,
+.glr-home-2 .slick-next:focus {
+    width: 25px;
+    height: 100px;
+    top: 50%;
+    right: 2%;
+    background: url(../images/seta-right.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+
 .glr-arquitetura .slick-prev,
 .glr-arquitetura .slick-prev:hover,
 .glr-arquitetura .slick-prev:focus {
@@ -135,7 +162,7 @@
 .glr-lazer .slick-prev:focus {
     width: 25px;
     height: 60px;
-    top: 45%;
+    top: 47%;
     left: 4%;
     background: url(../images/seta-left.png) no-repeat;
     background-position: center center;
@@ -148,7 +175,7 @@
 .glr-lazer .slick-next:focus {
     width: 25px;
     height: 60px;
-    top: 45%;
+    top: 47%;
     right: 4%;
     background: url(../images/seta-right.png) no-repeat;
     background-position: center center;
@@ -249,6 +276,21 @@
         right: 5%;
     }
 
+    .glr-home-2 .slick-prev,
+    .glr-home-2 .slick-prev:hover,
+    .glr-home-2 .slick-prev:focus {
+        width: 15px;
+        height: 30px;
+        left: 5%;
+    }
+    .glr-home-2 .slick-next,
+    .glr-home-2 .slick-next:hover,
+    .glr-home-2 .slick-next:focus {
+        width: 15px;
+        height: 30px;
+        right: 5%;
+    }
+
     .glr-arquitetura .slick-prev,
     .glr-arquitetura .slick-prev:hover,
     .glr-arquitetura .slick-prev:focus {
@@ -288,7 +330,7 @@
     .glr-lazer .slick-prev:focus {
         width: 15px;
         height: 30px;
-        top: 38%;
+        top: 45%;
         left: 5%;
     }
 
@@ -297,7 +339,7 @@
     .glr-lazer .slick-next:focus {
         width: 15px;
         height: 30px;
-        top: 38%;
+        top: 45%;
         right: 5%;
     }
 }
@@ -324,6 +366,21 @@
         right: 5%;
     }
 
+    .glr-home-2 .slick-prev,
+    .glr-home-2 .slick-prev:hover,
+    .glr-home-2 .slick-prev:focus {
+        width: 15px;
+        height: 30px;
+        left: 5%;
+    }
+    .glr-home-2 .slick-next,
+    .glr-home-2 .slick-next:hover,
+    .glr-home-2 .slick-next:focus {
+        width: 15px;
+        height: 30px;
+        right: 5%;
+    }
+
     .glr-arquitetura .slick-prev,
     .glr-arquitetura .slick-prev:hover,
     .glr-arquitetura .slick-prev:focus {
@@ -363,6 +420,7 @@
     .glr-lazer .slick-prev:focus {
         width: 15px;
         height: 30px;
+        top: 45%;
         left: 5%;
     }
 
@@ -371,6 +429,7 @@
     .glr-lazer .slick-next:focus {
         width: 15px;
         height: 30px;
+        top: 45%;
         right: 5%;
     }
 }

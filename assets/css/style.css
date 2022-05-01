@@ -215,7 +215,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #7d6b3f;
+  background-color: #cc7c55;
   padding: 20px 10px;
   position: relative;
 }
@@ -233,8 +233,8 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-family: 'Noway';
+  font-weight: normal;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
@@ -321,7 +321,7 @@ p {
 }
 
 .cookies .box {
-  background-color: #56601d;
+  background-color: #cc7c55;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -329,8 +329,8 @@ p {
 }
 
 .cookies .box p {
-  font-family: 'Proxima Nova Rg';
-  font-weight: 300;
+  font-family: 'Noway';
+  font-weight: normal;
   font-style: normal;
   color: #fff;
   font-size: 12px;
@@ -344,7 +344,7 @@ p {
 }
 
 .cookies .box .btn_cookie {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Noway';
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
@@ -357,54 +357,11 @@ p {
   margin-top: 7px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #bab355;
-}
-
-.modalPascoa {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modalPascoa .modal-content {
-  background-color: #000;
-  border: 0px solid transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.modalPascoa .modal-body {
-  padding: 8px;
-}
-
-.modalPascoa .close {
-  font-size: 27px;
-  color: #fff;
-  text-shadow: none;
-  opacity: 1;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  z-index: 100;
-}
-
-#view-receita {
-  width: 1px;
-  height: 1px;
-  background-color: red;
-  position: absolute;
-  top: 30.3%;
-}
-
-@media (min-width: 768px) {
-  .modalPascoa .modal-dialog {
-    margin: 6% auto 0;
-  }
+  background: #3c3f41;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
-  #view-receita {
-    top: 0%;
-  }
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
@@ -421,13 +378,6 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
-  }
-  .modalPascoa .modal-dialog {
-    margin: 25% auto 0;
-  }
-  .modalPascoa .close {
-    top: -30px;
-    right: 5px;
   }
 }
 
@@ -705,6 +655,19 @@ p {
   margin-bottom: -5px;
 }
 
+.lazer .glr-lazer .tt-slider {
+  font-family: 'Noway';
+  font-weight: normal;
+  font-style: normal;
+  color: #3c3f41;
+  font-size: 12px;
+  line-height: 15px;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 .lazer .boder-boder {
   border-left: 2px solid #3c3f41;
   border-right: 2px solid #3c3f41;
@@ -808,6 +771,14 @@ p {
   .lazer .slick-slide {
     margin-bottom: -5px;
   }
+  .lazer .glr-lazer .tt-slider {
+    font-size: 10px;
+    line-height: 15px;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
   .lazer figcaption {
     padding-top: 25px;
     padding-bottom: 30px;
@@ -839,6 +810,9 @@ p {
 /* Medium */
 /* Large */
 .contato {
+  background: url(../images/bg-contato.png) no-repeat #ffffff;
+  background-size: cover;
+  background-position: center center;
   border-top: 3px solid #cc7c55;
 }
 
@@ -967,6 +941,11 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
+  .contato {
+    background: url(../images/bg-contato-mobile.png) no-repeat #ffffff;
+    background-size: contain;
+    background-position: center top;
+  }
   .contato .tt {
     font-size: 16px;
     line-height: 20px;
@@ -990,6 +969,165 @@ p {
   }
   .contato .box .jrg img {
     max-width: 65%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+footer {
+  background-color: #b87b58;
+  padding-top: 60px;
+}
+
+footer .box .box-border {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #343738;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-top: 3px solid #ffffff;
+}
+
+footer p {
+  font-family: 'Noway';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 9px;
+  line-height: 15px;
+  padding-left: 15px;
+}
+
+footer .navbar-nav {
+  margin: 60px 0 10px 0;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Noway';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 10px;
+  border-right: 1px solid #ffffff;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    padding-top: 60px;
+  }
+  footer .box {
+    max-width: 93%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .box {
+    max-width: 85%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .box {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  footer .box {
+    max-width: 55%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+  }
+}
+
+.politica {
+  background-color: #b87b58;
+  padding-top: 60px;
+}
+
+.politica .politica-tt {
+  padding-top: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'DIN';
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Noway';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .politica .politica-tt h3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .politica .politica-info {
+    margin-top: 20px;
+  }
+  .politica .politica-info p {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 

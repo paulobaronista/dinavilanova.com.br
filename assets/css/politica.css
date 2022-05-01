@@ -1,17 +1,15 @@
 .politica {
-  margin-top: 68px;
-  padding-bottom: 50px;
+  background-color: #b87b58;
+  padding-top: 60px;
 }
 
 .politica .politica-tt {
-  background-color: #000000;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .politica .politica-tt h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'DIN';
+  font-weight: 900;
   font-style: normal;
   color: #ffffff;
   text-transform: uppercase;
@@ -26,10 +24,10 @@
 }
 
 .politica .politica-info p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Noway';
+  font-weight: normal;
   font-style: normal;
-  color: #000;
+  color: #ffffff;
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -42,10 +40,6 @@
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .politica {
-    margin-top: 68px;
-    padding-bottom: 20px;
-  }
   .politica .politica-tt h3 {
     font-size: 25px;
     line-height: 25px;

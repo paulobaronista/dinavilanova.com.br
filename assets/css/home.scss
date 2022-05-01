@@ -132,6 +132,21 @@
         margin-bottom: -5px;
     }
 
+    .glr-lazer {
+        .tt-slider {
+            font-family: 'Noway';
+            font-weight: normal;
+            font-style: normal;
+            color: #3c3f41;
+            font-size: 12px;
+            line-height: 15px;
+            float: right;
+            margin-right: 5%;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+    }
+
     .boder-boder {
         border-left: 2px solid #3c3f41;
         border-right: 2px solid #3c3f41;
@@ -243,6 +258,17 @@
 
         .slick-slide {
             margin-bottom: -5px;
+        }
+
+        .glr-lazer {
+            .tt-slider {
+                font-size: 10px;
+                line-height: 15px;
+                float: right;
+                margin-right: 5px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
         }
 
         figcaption {

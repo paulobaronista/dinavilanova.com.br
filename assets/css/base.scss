@@ -160,7 +160,7 @@ p {
         display: table;
         margin: 10% auto 0;
         width: 40%;
-        background-color: #7d6b3f;
+        background-color: #cc7c55;
         padding: 20px 10px;
         position: relative;
 
@@ -177,8 +177,8 @@ p {
         }
 
         p {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
+            font-family: 'Noway';
+            font-weight: normal;
             font-style: normal;
             font-size: 18px;
             line-height: 1.667;
@@ -258,15 +258,15 @@ p {
     display: none;
 
     .box {
-        background-color: #56601d;
+        background-color: #cc7c55;
         padding-top: 20px;
         padding-bottom: 20px;
         position: absolute;
         bottom: 20px;
 
         p {
-            font-family: 'Proxima Nova Rg';
-            font-weight: 300;
+            font-family: 'Noway';
+            font-weight: normal;
             font-style: normal;
             color: #fff;
             font-size: 12px;
@@ -280,7 +280,7 @@ p {
         }
 
         .btn_cookie {
-            font-family: 'Proxima Nova Rg';
+            font-family: 'Noway';
             font-weight: bold;
             font-style: normal;
             font-size: 16px;
@@ -292,59 +292,15 @@ p {
             width: 160px;
             margin-top: 7px;
             box-shadow: none;
-            background: #bab355;
+            background: #3c3f41;
         }
     }
 }
 
-.modalPascoa {
-    background-color: rgba(0, 0, 0, 0.5);
-
-    .modal-content {
-        background-color: #000;
-        border: 0px solid transparent;
-        box-shadow: none;
-    }
-
-    .modal-body {
-        padding: 8px;
-    }
-
-    .close {
-        font-size: 27px;
-        color: #fff;
-        text-shadow: none;
-        opacity: 1;
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        z-index: 100;
-    }
-}
-
-#view-receita {
-    width: 1px;
-    height: 1px;
-    background-color: red;
-    position: absolute;
-    top: 30.3%;
-}
-
-@media (min-width: 768px) {
-    .modalPascoa {
-        .modal-dialog {
-            margin: 6% auto 0;
-        }
-    }
-}
 
 
 /* Extra Small */
 @media(max-width:767px) {
-    #view-receita {
-        top: 0%;
-    }
-
     .aviso {
         div {
             margin: 30% auto 0;
@@ -368,17 +324,6 @@ p {
             .btn_cookie {
                 margin-top: 20px;
             }
-        }
-    }
-
-    .modalPascoa {
-        .modal-dialog {
-            margin: 25% auto 0;
-        }
-
-        .close {
-            top: -30px;
-            right: 5px;
         }
     }
 }

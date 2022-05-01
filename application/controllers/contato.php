@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Dina Vila Nova';
+        $data['description'] = 'Apartamento com arquitetura moderna, boa localização, vista incrível para o parque Ibirapuera São Paulo, SP';
+        $data['keywords'] = 'Apartamento de luxo, apartamento com entrega em 2022, apartamento próximo ao parque Ibirapuera, cobertura em São Paulo, apartamento com arquitetura moderna, são paulo, sp, apartamento em sp, apartamento novo em são paulo, apartamento de luxo em são paulo, cobertura com vista para a natureza, apartamento com 4 quartos em São Paulo, Dina Vila Nova';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -17,18 +17,16 @@ class Contato extends CI_Controller{
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('telefone');
-            $assunto1 = $this->input->post('assunto1');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('[Novo Lead] LP - Dina Vila Nova');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","Landing Modelo");
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('front.baronista@gmail.com');
-            //$this->email->cc('front.baronista@gmail.com');
+            $this->email->from("contato@dinavilanova.com.br","Dina Vila Nova");
+            $this->email->to('contato@dinavilanova.com.br');
+            $this->email->cc('front.baronista@gmail.com, luciano@jrgdi.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -36,8 +34,7 @@ class Contato extends CI_Controller{
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
-                        Assunto:	{$assunto1}<br/>
-                            Mensagem:	{$mensagem}<br/>
+                        Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
             if($this->email->send()){
@@ -57,9 +54,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Dina Vila Nova';
+        $data['description'] = 'Apartamento com arquitetura moderna, boa localização, vista incrível para o parque Ibirapuera São Paulo, SP';
+        $data['keywords'] = 'Apartamento de luxo, apartamento com entrega em 2022, apartamento próximo ao parque Ibirapuera, cobertura em São Paulo, apartamento com arquitetura moderna, são paulo, sp, apartamento em sp, apartamento novo em são paulo, apartamento de luxo em são paulo, cobertura com vista para a natureza, apartamento com 4 quartos em São Paulo, Dina Vila Nova';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -71,9 +68,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Dina Vila Nova';
+        $data['description'] = 'Apartamento com arquitetura moderna, boa localização, vista incrível para o parque Ibirapuera São Paulo, SP';
+        $data['keywords'] = 'Apartamento de luxo, apartamento com entrega em 2022, apartamento próximo ao parque Ibirapuera, cobertura em São Paulo, apartamento com arquitetura moderna, são paulo, sp, apartamento em sp, apartamento novo em são paulo, apartamento de luxo em são paulo, cobertura com vista para a natureza, apartamento com 4 quartos em São Paulo, Dina Vila Nova';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

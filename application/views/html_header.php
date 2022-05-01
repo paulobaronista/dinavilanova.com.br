@@ -6,9 +6,9 @@
     <title><?php echo $title; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Landing Modelo" />
-    <meta name="og:title" content="Landing Modelo" />
-    <meta name="og:description" content="Descrição" />
+    <meta name="title" content="Dina Vila Nova" />
+    <meta name="og:title" content="Dina Vila Nova" />
+    <meta name="og:description" content="Apartamento com arquitetura moderna, boa localização, vista incrível para o parque Ibirapuera São Paulo, SP" />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -18,10 +18,10 @@
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <meta name="theme-color" content="#9e6550" />
     <!-- property (faz funcionar no linkedin) -->
-    <meta property="og:title" content="Landing Modelo" />
+    <meta property="og:title" content="Dina Vila Nova" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="Descrição" />
-    <meta property="og:url" content="https://www.landingpagemodelo.com.br" />
+    <meta property="Apartamento com arquitetura moderna, boa localização, vista incrível para o parque Ibirapuera São Paulo, SP" />
+    <meta property="og:url" content="https://dinavilanova.com.br/" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(
@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.0.5');
+    echo link_tag('assets/css/style.css?v=0.0.6');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css?v=0.0.4');
     ?>

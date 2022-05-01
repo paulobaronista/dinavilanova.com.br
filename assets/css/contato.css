@@ -1,4 +1,7 @@
 .contato {
+  background: url(../images/bg-contato.png) no-repeat #ffffff;
+  background-size: cover;
+  background-position: center center;
   border-top: 3px solid #cc7c55;
 }
 
@@ -127,6 +130,11 @@
 
 /* Extra Small */
 @media (max-width: 767px) {
+  .contato {
+    background: url(../images/bg-contato-mobile.png) no-repeat #ffffff;
+    background-size: contain;
+    background-position: center top;
+  }
   .contato .tt {
     font-size: 16px;
     line-height: 20px;
