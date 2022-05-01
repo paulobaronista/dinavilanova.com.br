@@ -1,13 +1,18 @@
-@charset "UTF-8";
 .menu.active {
-  background-color: rgba(255, 255, 255, 0.9);
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu.active .nav > li > a {
+  font-size: 12px;
+  line-height: 12px;
 }
 
 .menu {
   position: fixed;
   width: 100%;
   float: left;
-  top: 0;
+  top: 10px;
   left: 0;
   z-index: 600;
   background-color: transparent;
@@ -26,100 +31,80 @@
   border-color: transparent;
 }
 
+.menu .nav > li {
+  padding: 10px 15px;
+}
+
 .menu .nav > li > a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  color: #000000;
+  font-family: 'Noway';
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
   text-transform: uppercase;
-  font-size: 12px;
-  line-height: 12px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
 }
 
 .menu .nav > li > a::before {
-  content: '•';
+  width: 20px;
+  height: 3px;
+  content: '';
   position: absolute;
-  right: -6px;
-  color: #aca727;
+  right: 0;
+  background-color: #e8ad00;
   font-size: 30px;
-  line-height: 9px;
-}
-
-.menu .fale-conosco::before {
-  content: "" !important;
-}
-
-.menu .navbar-brand {
-  float: left;
-  height: auto;
-  padding: 0;
-  margin-left: 0px;
-}
-
-.menu .navbar-brand img {
-  position: absolute;
+  bottom: -6px;
 }
 
 .menu .navbar-nav > li > a:focus,
 .menu .navbar-nav > li > a:hover {
-  color: #000000;
+  color: #e8ad00;
 }
 
-.menu .redes a {
-  padding: 10px 5px !important;
-}
-
-.menu .redes a::before {
-  content: '' !important;
-}
-
-.menu .dst {
-  background-color: #aca727;
-  padding: 5px 10px;
-  color: #fff;
+.menu .navbar-nav {
+  float: initial;
+  margin: 0 auto 0;
+  display: table;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
   .menu {
+    top: 0;
     background-color: transparent !important;
   }
   .menu .navbar-brand {
     margin-left: 5px;
   }
   .menu .navbar-nav {
-    background-color: #aca727;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+  .menu .nav > li {
+    padding: 15px 15px;
   }
   .menu .nav > li > a {
     font-size: 12px;
     line-height: 12px;
-    padding-left: 10px;
-    color: #fff;
+    padding-left: 0px;
     margin-bottom: 0px;
-    background: rgba(0, 0, 0, 0.9);
   }
   .menu .nav > li > a::before {
-    content: '';
-    font-size: 30px;
-    line-height: 9px;
-  }
-  .menu .redes {
-    display: inline-table;
-  }
-  .menu .redes a {
-    padding: 5px 5px;
-    border: none !important;
-    margin-bottom: 0px !important;
-    background: transparent !important;
+    left: 3px;
   }
   .menu .navbar-toggle {
     margin-top: 7px;
-    margin-right: 5px;
+    margin-right: 18px;
     border-color: #000;
     margin-bottom: 0;
   }
   .menu .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
     border-top: 0px solid transparent;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -140,6 +125,10 @@
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .nav > li > a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .menu.active .nav > li > a {
     font-size: 10px;
     line-height: 10px;
   }

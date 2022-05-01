@@ -195,21 +195,22 @@ p {
     position: fixed;
     right: 0;
     z-index: 999;
-    bottom: 90px;
+    bottom: 50px;
 }
 
 .float-box a {
-    width: 47px;
+    width: 40px;
     overflow: hidden;
     color: rgba(255, 255, 255, 0);
     transition: width 400ms, color 800ms;
-    height: 47px;
+    height: 40px;
     line-height: 27px;
     display: block;
-    margin-bottom: 1px;
-    padding: 10px 15px;
+    margin-bottom: 3px;
+    padding: 7px 15px;
+    border-radius: 5px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noway';
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
@@ -219,32 +220,32 @@ p {
 }
 
 .float-box a:hover {
-    width: 220px;
+    width: 140px;
     color: rgba(255, 255, 255, 1);
 }
 
 .float-box .chat {
-    background: url(../images/icone-chat.png) no-repeat right 10px center;
+    background: url(../images/icone-chat.png) no-repeat right 5px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #cc7c55;
 }
 
-.float-box .car {
-    background: url(../images/icone-car.png) no-repeat right 10px center;
+.float-box .face {
+    background: url(../images/icone-face.png) no-repeat right 5px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #cc7c55;
 }
 
-.float-box .mail {
-    background: url(../images/icone-mail.png) no-repeat right 10px center;
+.float-box .insta {
+    background: url(../images/icone-insta.png) no-repeat right 5px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #cc7c55;
 }
 
 .float-box .whats {
-    background: url(../images/icone-zap.png) no-repeat right 10px center;
+    background: url(../images/icone-zap.png) no-repeat right 5px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #aca727;
+    background-color: #cc7c55;
 }
 
 .cookies {

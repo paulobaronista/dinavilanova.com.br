@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta name="theme-color" content="#aca727" />
+    <meta name="theme-color" content="#9e6550" />
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Landing Modelo" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
@@ -33,9 +33,9 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.0.1');
+    echo link_tag('assets/css/style.css?v=0.0.5');
     echo link_tag('assets/css/slick.css');
-    echo link_tag('assets/css/slick-theme.css?v=0.0.1');
+    echo link_tag('assets/css/slick-theme.css?v=0.0.4');
     ?>
 </head>
 

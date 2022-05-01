@@ -1,13 +1,5 @@
 $(document).on('ready', function () {
     $(".glr-home").slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 20000,
-    });
-
-    $(".glr-receitas").slick({
         dots: false,
         infinite: true,
         speed: 500,
@@ -15,17 +7,29 @@ $(document).on('ready', function () {
         autoplaySpeed: 20000,
     });
 
-    $(".galeria-01").slick({
+    $(".glr-arquitetura").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 8000,
+        autoplaySpeed: 20000,
     });
-});
 
-$(document).ready(function () {
-    $('#modalPascoa').modal();
+    $(".glr-plantas").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 20000,
+    });
+
+    $(".glr-lazer").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 20000,
+    });
 });
 
 $(document).ready(function () {

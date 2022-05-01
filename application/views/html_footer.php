@@ -7,9 +7,10 @@ echo script_tag('assets/js/bootstrap.min.js');
 ?>
 
 <div class="float-box">
-    <a href="#" class="mail">Enviar mensagem</a>
+    <a href="#" target="_blank" class="face">Facebook</a>
+    <a href="#" target="_blank" class="insta">Instagram</a>
     <a href="#" target="_blank" class="whats">Whatsapp</a>
-    <a href="#" target="_blank" class="car">Compre aqui</a>
+    <a href="#" target="_blank" class="chat">Chat</a>
 </div>
 
 </body>

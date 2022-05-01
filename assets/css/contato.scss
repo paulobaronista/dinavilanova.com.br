@@ -1,41 +1,35 @@
 .contato {
-    background-color: #56601d;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    border-top: 3px solid #cc7c55;
+
+    .boder-boder {
+        border-left: 2px solid #cc7c55;
+        border-right: 2px solid #cc7c55;
+    }
 
     .tt {
-        padding-bottom: 20px;
-
-        p {
-            font-family: 'Rosellinda Alyamore';
-            font-weight: normal;
-            font-style: normal;
-            color: #fff;
-            font-size: 50px;
-            line-height: 50px;
-        }
-    }
-
-    .txt-1,
-    .txt-2 {
-        font-family: 'HelveticaNeue';
-        font-weight: 500;
-        color: #ffffff;
+        font-family: 'DIN';
+        font-weight: 900;
+        font-style: normal;
+        color: #b87b58;
+        font-size: 24px;
+        line-height: 28px;
         text-transform: uppercase;
-
-        a {
-            color: #ffffff;
-        }
+        padding-top: 60px;
+        padding-bottom: 0px;
+        padding-left: 23px;
     }
 
-    .txt-1 {
-        font-size: 15px;
-        line-height: 30px;
-    }
-
-    .txt-2 {
-        font-size: 30px;
-        line-height: 30px;
+    .txt {
+        font-family: 'DIN';
+        font-weight: 300;
+        font-style: normal;
+        color: #b87b58;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 23px;
     }
 
     .group-form {
@@ -46,87 +40,120 @@
         }
 
         .form-control {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Futura Std';
             font-weight: 500;
+            font-style: normal;
             height: 50px;
             padding: 6px 12px;
             font-size: 14px;
             line-height: 1.42857143;
-            color: #000000;
-            background-color: #fff;
+            color: #b87b58;
+            background-color: #ead7cd;
             border: 0px solid transparent;
             border-radius: 0px;
             box-shadow: none;
 
             &::-webkit-input-placeholder {
-                color: #000000;
+                color: #b87b58;
             }
 
             &:-ms-input-placeholder {
-                color: #000000;
+                color: #b87b58;
             }
 
             &::placeholder {
-                color: #000000;
+                color: #b87b58;
             }
         }
 
         textarea {
-            height: 150px !important;
+            height: 100px !important;
         }
 
         .btn_enviar {
-            font-family: 'HelveticaNeue';
-            font-weight: 500;
-            padding: 8px 20px;
+            font-family: 'DIN';
+            font-weight: 300;
+            font-style: normal;
+            padding: 8px 30px;
             margin-bottom: 0;
             font-size: 14px;
-            font-weight: 400;
             line-height: 1.42857143;
             border: 0px solid transparent;
             border-radius: 0px;
-            color: #fff;
-            background-color: #bab355;
+            color: #ffffff;
+            background-color: #b87b58;
             float: right;
             text-transform: uppercase;
+            margin-top: 5px;
+            letter-spacing: 3px;
         }
     }
 
     small {
-        font-family: 'HelveticaNeue';
-        font-weight: 500;
-        color: #ffffff;
+        font-family: 'Minion Pro';
+        font-weight: normal;
+        font-style: normal;
+        color: #b87b58;
         font-size: 10px;
         line-height: 13px;
         display: block;
     }
-    
+
+    .box {
+        padding-top: 20px;
+
+        .tradicao {
+            font-family: 'Noway';
+            font-weight: normal;
+            font-style: normal;
+            color: #000000;
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+
+        .jrg {
+            padding-top: 35px;
+
+            img {
+                max-width: 80%;
+            }
+        }
+    }
 }
 
 /* Extra Small */
 @media(max-width:767px) {
     .contato {
-        padding-top: 30px;
-        padding-bottom: 30px;
-
         .tt {
-            padding-bottom: 20px;
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 20px;
+            padding-left: 23px;
+        }
 
-            p {
-                font-size: 50px;
-                line-height: 40px;
-                text-align: center;
+        .txt {
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 10px;
+            padding-left: 23px;
+        }
+
+        .box {
+            .tradicao {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 15px;
             }
-        }
 
-        .txt-1 {
-            font-size: 14px;
-            line-height: 28px;
-        }
+            .jrg {
+                padding-top: 0px;
+                padding-bottom: 20px;
 
-        .txt-2 {
-            font-size: 25px;
-            line-height: 25px;
+                img {
+                    max-width: 65%;
+                }
+            }
         }
     }
 }
